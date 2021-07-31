@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clase9</string>
+    <string name="all_pokemon_title">Lista</string>
+    <string name="favorite_pokemon_title">Favoritos</string>
+</resources>

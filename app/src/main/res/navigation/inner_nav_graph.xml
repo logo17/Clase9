@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/inner_nav_graph"
+    app:startDestination="@id/allPokemonListFragment">
+
+    <fragment
+        android:id="@+id/allPokemonListFragment"
+        android:name="com.loguito.clase9.views.AllPokemonListFragment"
+        android:label="AllPokemonListFragment" />
+    <fragment
+        android:id="@+id/favoritePokemonListFragment"
+        android:name="com.loguito.clase9.views.FavoritePokemonListFragment"
+        android:label="FavoritePokemonListFragment" />
+</navigation>
